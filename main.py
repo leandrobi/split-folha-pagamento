@@ -24,6 +24,11 @@ def extract_name(text: str) -> str:
 def main():
     st.title("Split de Folha de Pagamento")
 
+    st.write("""
+    Este app não armazena e não manda nenhum dado recebido para o servidor.
+    As informações são processadas para e somente pelo usuário da sessão.
+    """)
+
     # Mês e ano lado a lado
     col1, col2 = st.columns(2)
     with col1:
