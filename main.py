@@ -22,7 +22,7 @@ def extract_name(text: str) -> str:
     return "page"
 
 def main():
-    st.title("Split de Folha de Pagamento por Funcionário")
+    st.title("Split de Folha de Pagamento")
 
     # Mês e ano lado a lado
     col1, col2 = st.columns(2)
